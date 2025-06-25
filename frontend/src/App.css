@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("//cdn-images.mailchimp.com/embedcode/classic-061523.css");
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* timeline styles */
+
+/* Stiluri personalizate pentru timeline */
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #171717; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffd700; /* Scrollbar color (yellow) */
+  border-radius: 10px; /* Rounded corners for the scrollbar */
+  border: 2px solid #171717; /* Optional: adds some padding */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffd700 #171717; /* Thumb and track colors for Firefox */
+}
+
+.body {
+  background-color: black;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container .content {
+  padding: 20px;
+  background-color: rgb(26, 26, 26);
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Stiluri responsivitate */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .container.left,
+  .container.right {
+    left: 0;
+  }
+
+  /* Imaginile și conținutul se aliniază la centru pe ecrane mici */
+  .container .content {
+    text-align: center;
+  }
+
+  img {
+    position: static;
+    margin: 0 auto 10px;
+  }
+}
