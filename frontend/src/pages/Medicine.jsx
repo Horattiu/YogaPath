@@ -2,8 +2,11 @@ import React from "react";
 
 const Medicine = () => {
   return (
-    <div className="bg-black text-white py-16 px-6 min-h-screen">
+    <div className="bg-black text-white py-16 px-6 min-h-screen montserrat">
       <div className="max-w-5xl mx-auto">
+        <h1 className="text-5xl font-bold mrs-saint-delafield-regular text-yellow-500 mb-4">
+          Medicine for Spirit and Body
+        </h1>
         <div className="mb-10">
           <img
             src="/medicine.png"
@@ -12,66 +15,83 @@ const Medicine = () => {
           />
         </div>
 
-        <h1 className="text-5xl font-bold mrs-saint-delafield-regular text-yellow-500 mb-4">
-          Medicine for Spirit and Body
-        </h1>
-        <h2 className="text-2xl font-semibold text-yellow-500 mb-6">
+        <h2 className="text-2xl  text-yellow-500 mb-6">
           Shamanic healing & Akashic reading
         </h2>
 
         <p className="mb-4 text-lg leading-relaxed">
           Studiile din ultimul an m-au ajutat să creez un nou instrument care să
-          fie de folos în propria vindecare. Astfel am creat această terapie -{" "}
+          fie de folos în propria vindecare.
+        </p>
+
+        <p className="mb-4 text-lg leading-relaxed">
+          Astfel am creat această terapie -{" "}
           <strong>Medicine for Spirit & Body</strong> care integrează atât
           Spațiul Akashic cât și Lumea Shamanismului.
         </p>
 
-        <h3 className="text-xl font-semibold text-yellow-500 mb-2">
-          Structura terapiei:
-        </h3>
+        <p className="mb-4 text-lg leading-relaxed">
+          Mai exact este vorba de o terapie în care lucrăm astfel:
+        </p>
+
         <ul className="list-disc list-inside mb-6 text-lg leading-relaxed space-y-2">
           <li>
-            Citire akashică pentru a identifica sursa traumelor și provocărilor
-            tale actuale.
+            prima dată vom avea împreună o citire akashică în care identificăm
+            de unde vin traumele, provocările și întrebările legate de viața ta
+            prezentă
           </li>
           <li>
-            Sesiune de vindecare prin shamanism – schimbări imediate în starea
-            fizică și emoțională.
+            a doua sesiune va fi una de vindecare directă prin metode din
+            shamanism, după care poți observa o schimbare imediată în starea ta,
+            în fizic și emoțional
           </li>
           <li>
-            Integrarea: pașii următori, instrumente și practici de continuare.
+            a treia sesiune va fi despre integrarea a ceea ce am lucrat, de a
+            înțelege pașii în care vei merge mai departe, vom discuta despre
+            instrumente și practici pe care le poți folosi pentru a continua pe
+            drumul vindecării și auto-cunoașterii tale
           </li>
         </ul>
 
         <p className="mb-6 text-lg leading-relaxed">
-          <strong>Recomandare:</strong> primele 2 sesiuni la interval de 7–10
-          zile, iar sesiunea de integrare la 2 săptămâni după a doua.
+          Recomandarea este ca primele 2 sesiuni să se facă cu o diferență de
+          7-10 zile între ele, iar cea de integrare la 2 săptămâni după cea de-a
+          doua ședință.
         </p>
 
-        <h3 className="text-xl font-semibold text-yellow-500 mb-2">
-          Ce vei obține după cele 3 sesiuni:
+        <h3 className="text-2xl  text-yellow-500 mb-2">
+          Ce vei obține după aceste 3 sesiuni:
         </h3>
         <ul className="list-disc list-inside mb-6 text-lg leading-relaxed space-y-2">
-          <li>O înțelegere profundă a drumului tău.</li>
-          <li>Clarificare privind traumele și provocările personale.</li>
-          <li>Vindecare la nivel de suflet și corp (acolo unde e cazul).</li>
-          <li>Practici utile de integrat în rutina zilnică.</li>
-          <li>Direcție clară și reconectare cu Sinele.</li>
-          <li>Eliberarea de frici și anxietăți care te țin blocat/ă.</li>
+          <li>o înțelegere cât mai profundă a drumului tău</li>
+          <li>
+            o înțelegere de unde vin traumele, provocările și suferințele tale
+          </li>
+          <li>
+            o vindecare profundă la nivel de suflet și corp (acolo unde e cazul)
+          </li>
+          <li>
+            practici pe care le poți integra în activitatea ta zilnică ca și
+            rutină
+          </li>
+          <li>o direcție clară în care să te reconectezi în Sine</li>
+          <li>eliminarea multor frici / anxietăți care te țin blocat/ă</li>
         </ul>
 
-        <h3 className="text-xl font-semibold text-yellow-500 mb-2">
-          Detalii organizatorice:
-        </h3>
         <p className="mb-2 text-lg leading-relaxed">
-          Sesiunile se pot face în persoană în Cluj-Napoca sau online pe Zoom.
+          Sesiunile se pot face atât în persoană în Cluj-Napoca, cât și online
+          pe Zoom.
         </p>
+
         <p className="mb-2 text-lg leading-relaxed">
-          Durata unei sesiuni: 60–90 minute.
+          Fiecare sesiune durează între 60-90 min.
         </p>
+
         <p className="text-lg leading-relaxed">
-          <strong>Cost:</strong> 1480 RON (pentru pachetul complet) sau 1700 RON
-          dacă plătești separat.
+          Schimbul energetic pentru acest pachet este de{" "}
+          <strong>1480 RON</strong> - dacă achiziționezi cele 3 ședințe, sau{" "}
+          <strong>1700 RON (total)</strong> dacă plătești separat fiecare
+          sesiune în parte.
         </p>
       </div>
     </div>

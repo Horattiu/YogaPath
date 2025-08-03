@@ -112,7 +112,7 @@
 
 const Workshop = () => {
   return (
-    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center">
+    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center montserrat">
       <div className="max-w-4xl w-full">
         <h1 className="text-5xl font-bold text-center mrs-saint-delafield-regular mb-8 text-yellow-500">
           Workshops
@@ -135,7 +135,7 @@ const Workshop = () => {
           de integrare și sharing.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-4 text-yellow-500">
+        <h2 className="text-2xl  mt-10 mb-4 text-yellow-500">
           Ce oferim prin fiecare workshop organizat:
         </h2>
         <ul className="list-disc list-inside space-y-3 mb-8 text-lg">

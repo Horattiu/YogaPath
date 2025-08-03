@@ -108,34 +108,141 @@
 
 // export default Retreats;
 
+// import React from "react";
+// import { Link } from "react-router-dom";
+
+// const Retreats = () => {
+//   return (
+//     <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center montserrat">
+//       <div className="max-w-4xl w-full">
+//         <h1 className="text-5xl font-bold text-center mb-10 text-yellow-500 mrs-saint-delafield-regular">
+//           Retreat-uri
+//         </h1>
+
+//         <p className="text-lg mb-6">
+//           Retreat-urile noastre au început în 2020, în plină pandemie, când am
+//           simțit nevoia să concretizăm în ceva palpabil ceea ce își doreau
+//           foarte mulți din jurul nostru: să se reconecteze cu ceilalți, dar și
+//           cu ei înșiși.
+//         </p>
+
+//         <p className="text-lg mb-6">
+//           De aici a apărut primul retreat și au urmat multe altele. <br />
+//           În prezent, în 2025, avem în spate experiența a peste 25 de
+//           retreat-uri, organizate atât în țară, cât și în afara țării.
+//         </p>
+
+//         <p className="text-lg mb-6">
+//           Am început cu retreat-uri de yoga și am continuat cu cele de
+//           feminitate, kundalini, tantra, shamanism, dezvoltare personală și
+//           multe altele.
+//           <br /> Fiecare retreat este diferit, dar păstrăm mereu organizarea
+//           impecabilă și mâncarea vegană delicioasă gătită de draga mea Oana.
+//         </p>
+
+//         <p className="text-lg mb-6">
+//           Chiar dacă ai mai participat la un retreat de-al nostru, fiecare
+//           experiență este unică. O spun cei care vin cu noi poate a cincea sau a
+//           șasea oară.
+//         </p>
+
+//         <h2 className="text-2xl  mt-10 mb-4 text-yellow-500">
+//           Ce se întâmplă într-un retreat?
+//         </h2>
+//         <ul className="list-disc list-inside text-lg space-y-2 mb-8">
+//           <li>ne așezăm în cerc și ne deschidem, ne acceptăm unii pe alții</li>
+//           <li>învățăm să fim vulnerabili</li>
+//           <li>plângem mult, dar râdem și mai mult</li>
+//           <li>gătim împreună câteodată</li>
+//           <li>ne trezim la 7 dimineața și împărtășim povești de viață</li>
+//           <li>ieșim din zona de confort</li>
+//           <li>practicăm yoga și kundalini</li>
+//           <li>integrare prin practici de tantra</li>
+//           <li>meditație, relaxare, yoga nidra</li>
+//           <li>piscină, saună, jacuzzi, soare și natură</li>
+//           <li>grijă pentru corp, minte și suflet</li>
+//           <li>îmbrățișări, susținere și eliberare emoțională</li>
+//           <li>reîntoarcere „Acasă” în Sine</li>
+//         </ul>
+
+//         <h2 className="text-2xl  mb-4 text-yellow-500">Locații și atmosferă</h2>
+//         <p className="text-lg mb-6">
+//           Locațiile pe care le alegem sunt atent selectate, cu o energie
+//           specială. Mergem acolo personal pentru a simți locul înainte de a lua
+//           decizia. Alegem spații care oferă atât siguranță emoțională, cât și
+//           confort fizic — esențial pentru o transformare profundă.
+//         </p>
+
+//         <p className="text-lg mb-6">
+//           Atunci când lucrăm cu sufletul, cu traumele și credințele limitative,
+//           avem nevoie de un spațiu cald, sigur și hrănitor. Iar asta oferim cu
+//           toată inima participanților noștri.
+//         </p>
+
+//         <h2 className="text-2xl  mb-4 text-yellow-500">
+//           Evenimente și prețuri
+//         </h2>
+//         <p className="text-lg mb-6">
+//           Retreat-urile actuale le poți găsi în secțiunea{" "}
+//           <Link
+//             to="/events"
+//             className="underline text-teal-400 hover:text-teal-200"
+//           >
+//             EVENTS
+//           </Link>
+//           .
+//         </p>
+
+//         <p className="text-lg">
+//           Prețul diferă în funcție de temă, perioadă și locație. Locul se
+//           rezervă prin plata unui avans.
+//         </p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Retreats;
+
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Retreats = () => {
   return (
-    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center">
-      <div className="max-w-4xl w-full">
+    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center montserrat">
+      <div className="max-w-6xl w-full">
         <h1 className="text-5xl font-bold text-center mb-10 text-yellow-500 mrs-saint-delafield-regular">
           Retreat-uri
         </h1>
 
-        <p className="text-lg mb-6">
-          Retreat-urile noastre au început în 2020, în plină pandemie, când am
-          simțit nevoia să concretizăm în ceva palpabil ceea ce își doreau
-          foarte mulți din jurul nostru: să se reconecteze cu ceilalți, dar și
-          cu ei înșiși.
-        </p>
+        {/* Imagine + text într-un grid aliniat sus */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12 items-start">
+          <img
+            src="/retreatss.png"
+            alt="Retreat"
+            className="w-full max-h-[500px] object-cover rounded-3xl shadow-2xl"
+          />
 
-        <p className="text-lg mb-6">
-          De aici a apărut primul retreat și au urmat multe altele. În prezent,
-          în 2025, avem în spate experiența a peste 25 de retreat-uri,
-          organizate atât în țară, cât și în afara țării.
-        </p>
+          <div className="text-lg space-y-6">
+            <p>
+              Retreat-urile noastre au început în 2020, în plină pandemie, când
+              am simțit nevoia să concretizăm în ceva palpabil ceea ce își
+              doreau foarte mulți din jurul nostru: să se reconecteze cu
+              ceilalți, dar și cu ei înșiși.
+            </p>
+
+            <p>
+              De aici a apărut primul retreat și au urmat multe altele. În
+              prezent, în 2025, avem în spate experiența a peste 25 de
+              retreat-uri, organizate atât în țară, cât și în afara țării.
+            </p>
+          </div>
+        </div>
 
         <p className="text-lg mb-6">
           Am început cu retreat-uri de yoga și am continuat cu cele de
           feminitate, kundalini, tantra, shamanism, dezvoltare personală și
-          multe altele. Fiecare retreat este diferit, dar păstrăm mereu
+          multe altele. <br /> Fiecare retreat este diferit, dar păstrăm mereu
           organizarea impecabilă și mâncarea vegană delicioasă gătită de draga
           mea Oana.
         </p>
@@ -146,7 +253,7 @@ const Retreats = () => {
           șasea oară.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-4 text-yellow-500">
+        <h2 className="text-2xl mt-10 mb-4 text-yellow-500">
           Ce se întâmplă într-un retreat?
         </h2>
         <ul className="list-disc list-inside text-lg space-y-2 mb-8">
@@ -165,9 +272,7 @@ const Retreats = () => {
           <li>reîntoarcere „Acasă” în Sine</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mb-4 text-yellow-500">
-          Locații și atmosferă
-        </h2>
+        <h2 className="text-2xl mb-4 text-yellow-500">Locații și atmosferă</h2>
         <p className="text-lg mb-6">
           Locațiile pe care le alegem sunt atent selectate, cu o energie
           specială. Mergem acolo personal pentru a simți locul înainte de a lua
@@ -181,7 +286,7 @@ const Retreats = () => {
           toată inima participanților noștri.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-4">Evenimente și prețuri</h2>
+        <h2 className="text-2xl mb-4 text-yellow-500">Evenimente și prețuri</h2>
         <p className="text-lg mb-6">
           Retreat-urile actuale le poți găsi în secțiunea{" "}
           <Link

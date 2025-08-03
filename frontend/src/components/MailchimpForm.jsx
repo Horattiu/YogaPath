@@ -115,8 +115,8 @@ const MailchimpForm = () => {
 
   useEffect(() => {
     const mailchimpHtmlContent = `
-      <div id="mc_embed_signup" class="p-8 rounded-lg shadow-xl text-center text-white max-w-md mx-auto">
-        <h2 class="text-3xl font-bold text-yellow-400 mb-2">Abonează-te la Newsletter!</h2>
+      <div id="mc_embed_signup" class="p-8 rounded-lg shadow-xl text-center text-white max-w-md mx-auto montserrat">
+        <h2 class="text-3xl font-semibold text-yellow-400 mb-2">Abonează-te la Newsletter!</h2>
         <p class="text-gray-300 mb-6">Primește cele mai noi noutăți direct în inbox-ul tău!</p>
         <form action="https://gmail.us4.list-manage.com/subscribe/post?u=7f78f4dea9d60157a39953e72&amp;id=03bb1d0488&amp;f_id=0094a4eff0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
           <div id="mc_embed_signup_scroll" class="flex flex-col items-center">

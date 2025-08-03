@@ -2,7 +2,7 @@ import React from "react";
 
 const Events = () => {
   return (
-    <div className="bg-[#060606] text-white min-h-screen p-8 space-y-16">
+    <div className="bg-[#060606] text-white min-h-screen pt-24 md:pt-20 p-8 space-y-16 montserrat">
       <section className="text-center space-y-4">
         <p className="text-lg max-w-3xl mx-auto">
           Evenimentele noastre sunt retreat-uri atât în țară cât și în afara ei,
@@ -58,7 +58,7 @@ const Events = () => {
           href="https://www.facebook.com/events/1286330392650104"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 px-6 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200"
+          className="inline-block mt-4 px-6 py-3 bg-yellow-500 text-black font-bold rounded-full hover:bg-yellow-600"
         >
           MAI MULTE DETALII
         </a>
@@ -105,7 +105,7 @@ const Events = () => {
           href="https://www.facebook.com/events/584702304617785"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 px-6 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200"
+          className="inline-block mt-4 px-6 py-3 bg-yellow-500 text-black font-bold rounded-full hover:bg-yellow-600"
         >
           MAI MULTE DETALII
         </a>
@@ -125,7 +125,7 @@ const Events = () => {
             href="https://www.facebook.com/adelesyogapath"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200"
+            className="px-6 py-3 bg-yellow-500 text-black font-bold rounded-full hover:bg-yellow-600"
           >
             Facebook
           </a>
@@ -133,7 +133,7 @@ const Events = () => {
             href="https://www.instagram.com/adelesyogapath"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200"
+            className="px-6 py-3 bg-yellow-500 text-black font-bold rounded-full hover:bg-yellow-600"
           >
             Instagram
           </a>

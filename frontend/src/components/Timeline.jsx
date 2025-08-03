@@ -87,7 +87,7 @@ const Timeline = () => {
         {/* Alt element stânga */}
         <div className="container left w-full lg:w-1/2" data-aos="fade-right">
           <div className="text-white p-6 bg-[#242424] rounded-lg shadow-lg">
-            <h2 className="text-[#fcd34d]">Kundalini</h2>
+            <h2 className="text-[#fcd34d]">KUNDALINI</h2>
             <p>
               Energia Kundalini este cea mai puternică energie din corpul
               nostru, energia feminină cât și cea sexuală
@@ -109,7 +109,7 @@ const Timeline = () => {
               className="hidden lg:block absolute lg:top-12 lg:left-2 w-8 h-8 filter invert"
             />
             <div className="text-white p-6 bg-[#242424] rounded-lg shadow-lg">
-              <h2 className="text-[#fcd34d]">Retreats</h2>
+              <h2 className="text-[#fcd34d]">RETREATS</h2>
               <p>
                 Retreat-urile noastre au început în 2020 în plină pandemie când
                 am simțit nevoia să concretizăm în ceva palpabil ceea ce își

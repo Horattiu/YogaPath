@@ -39,13 +39,13 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-[#060606] pt-24 md:pt-28" id="contact">
+      <div className="bg-[#060606] pt-24 md:pt-20" id="contact">
         <div className="px-6 md:px-0 grid sm:grid-cols-2 items-start gap-10 py-10 mx-auto max-w-5xl bg-[#060606] rounded-md font-[sans-serif]">
           <div>
-            <h1 className="text-gray-200 text-5xl mrs-saint-delafield-regular">
+            <h1 className=" text-5xl mrs-saint-delafield-regular text-yellow-500">
               Let's Talk
             </h1>
-            <p className="text-base text-gray-300 mt-4 montserrat">
+            <p className="text-base text-gray-100 mt-4 montserrat">
               Daca ceea ce sunt și fac te cheamă să experimenăm împreună,
               scrie-mi un mesaj pentru orice ai nevoie: - citiri akashcice,
               spiritual coaching, călătorii șamanice de vindecare, sesiuni
@@ -55,7 +55,7 @@ function Contact() {
 
             <div className="mt-4 space-y-4">
               <div>
-                <h2 className="text-gray-300 text-base font-bold">Email</h2>
+                <h2 className="text-gray-100 text-base font-bold">Email</h2>
                 <ul className="mt-2">
                   <li className="flex items-center">
                     <div className="bg-[#060606] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
@@ -71,14 +71,14 @@ function Contact() {
                       </svg>
                     </div>
                     <a href="mailto:yoga.adele@gmail.com" className="text-md ">
-                      <p className="text-gray-300">yoga.adele@gmail.com</p>
+                      <p className="text-gray-100">yoga.adele@gmail.com</p>
                     </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h2 className="text-gray-300 text-base font-bold">Telefon</h2>
+                <h2 className="text-gray-100 text-base font-bold">Telefon</h2>
                 <ul className="mt-2">
                   <li className="flex items-center">
                     <div className="bg-[#060606] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
@@ -97,7 +97,7 @@ function Contact() {
                       href="tel:+40712345678"
                       className="text-md font-semibold ml-4"
                     >
-                      <p className="text-gray-300">+40 712 345 678</p>
+                      <p className="text-gray-100">+40 712 345 678</p>
                     </a>
                   </li>
                 </ul>

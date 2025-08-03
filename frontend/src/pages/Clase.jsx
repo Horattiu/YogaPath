@@ -2,7 +2,7 @@ import React from "react";
 
 const Clase = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12 text-gray-200 flex flex-col md:flex-row items-start gap-10">
+    <div className="max-w-6xl mx-auto px-6 py-12 text-gray-200 flex flex-col md:flex-row items-start gap-10 montserrat">
       {/* Textul */}
       <div className="md:w-2/3">
         <h1 className="text-5xl text-yellow-500 font-bold mb-6 mrs-saint-delafield-regular">

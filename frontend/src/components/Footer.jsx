@@ -465,7 +465,7 @@ function Footer() {
       <div className="text-center bg-[#060606] p-2">
         <hr className="styled-hr" />
         <p className="text-gray-200 text-sm">
-          © 2024 Adela's yoga path. All rights reserved
+          © 2025 Adela's oracle path. All rights reserved
         </p>
       </div>
     </>

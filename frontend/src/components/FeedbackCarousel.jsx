@@ -78,7 +78,7 @@ import { useState } from "react";
 
 const images = [
   "/feedback1.jpg",
-  "/feedback.png",
+  "/feedback2.jpg",
   "/feedback3.jpg",
   "/feedback4.jpg",
   "/feedback5.jpg",

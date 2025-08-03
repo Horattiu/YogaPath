@@ -132,7 +132,7 @@ import React from "react";
 
 const TerapieYoga = () => {
   return (
-    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center">
+    <div className="bg-black text-white min-h-screen px-6 py-12 flex justify-center montserrat">
       <div className="max-w-4xl w-full">
         <h1 className="text-5xl font-bold text-yellow-500 text-center mb-8 mrs-saint-delafield-regular">
           Terapiile Yoga private 1 on 1
@@ -180,7 +180,7 @@ const TerapieYoga = () => {
           1 sau 2 ori pe săptămână timp de câteva luni pentru a vedea rezultate.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-4 text-yellow-500">
+        <h2 className="text-2xl  mt-10 mb-4 text-yellow-500">
           Într-o astfel de sesiune ne focusăm pe:
         </h2>
         <ul className="list-disc list-inside space-y-3 mb-8 text-lg">

@@ -23,6 +23,7 @@ import SpiritualCoaching from "./pages/SpiritualCoaching.jsx";
 import Medicine from "./pages/Medicine.jsx";
 import MailchimpForm from "./components/MailchimpForm.jsx";
 import Contact from "./components/Contact.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   useEffect(() => {
@@ -37,14 +38,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar /> */}
+        <ScrollToTop />
+        <Navbar />
         <Routes>
           {/* Rute publice */}
           <Route path="/" element={<Homepage />} />
-          {/* <Route path="/about" element={<AboutMe />} /> */}
-          {/* <Route path="/offerings" element={<Offerings />} /> */}
-          {/* <Route path="/mailchimp" element={<MailchimpForm />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/offerings" element={<Offerings />} />
+          <Route path="/mailchimp" element={<MailchimpForm />} />
+          <Route path="/contact" element={<Contact />} />
 
           <Route path="/events" element={<Events />} />
 
