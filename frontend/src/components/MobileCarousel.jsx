@@ -142,7 +142,7 @@ Mulțumesc, Adela, pentru tot ce ai împărtășit cu mine. Cu siguranță mă a
 Nu îți schimbă viața miraculos fără ca tu să nu miști un deget :) Însă te ajută ca tu să știi ce deget trebuie să miști, și e o diferență mare.
 Dar totul depinde de persoana care îți face citirea.
 Nu cred că fucționează dacă "cititorul" nu este un canal de informare. Pentru că această informația vine din forțe divine.
-Oricum ai toată încrederea mea, și am zis și atunci, trebuie să fii foarte tare de îngeri să poți duce cu brio tot ce vine din Akasha. :)`,
+Oricum ai toată încrederea mea, și am zis și atunci, trebuie să fii foarte tare de îngeri să poți duce cu brio tot ce vine din Akasha`,
   },
   {
     title: "Akashic Reading testimonial",
