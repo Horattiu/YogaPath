@@ -39,7 +39,7 @@ function Contact() {
 
   return (
     <>
-      <div className="bg-[#060606] pt-24 md:pt-20" id="contact">
+      <div className="bg-[#060606] pt-20 md:pt-18" id="contact">
         <div className="px-6 md:px-0 grid sm:grid-cols-2 items-start gap-10 py-10 mx-auto max-w-5xl bg-[#060606] rounded-md font-[sans-serif]">
           <div>
             <h1 className=" text-5xl mrs-saint-delafield-regular text-yellow-500">
